@@ -6,6 +6,6 @@
   />
 </div>
 
-![Second images](/template-daa/IMG-20250307215621059.png])
+![Second images](/template-daa/IMG-20250307215621059.png)
 
 ![[/template-daa/IMG-20250307215621059.png]]

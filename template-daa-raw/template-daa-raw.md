@@ -1,5 +1,4 @@
-
-![[IMG-20250306104014185.png]]
+![Banner](/template-daa-raw/IMG-20250306104014185.png)
 <h1 style="background:#245bdb; color:white; font-size:1.60em; font-weight: bold"; align="center">Migración NODO LDN 1 – vCCAP – HUB CORABASTO - EXITOSO</h1>
 A continuación, encontrarán el reporte de estado posterior a la actividad realizada en ventana de trabajo.
 

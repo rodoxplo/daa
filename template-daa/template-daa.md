@@ -1,6 +1,6 @@
 <div align="left">
   <img
-    src="/daa/template-daa/IMG-20250307215621059.png"
+    src="/template-daa/IMG-20250307215621059.png"
     alt="Template DAA"
     width="800"
   />

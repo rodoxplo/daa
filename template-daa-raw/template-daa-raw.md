@@ -21,7 +21,7 @@ A continuación, encontrarán el reporte de estado posterior a la actividad real
 ### Tabla resumen CM
 
 <div align="center">
-<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black; "
+<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
 <tr>
 <th colspan="6"; style="background:#FFFFFF; font-weight:bold; text-align: center; vertical-align: middle; height: 2px">Resumen Migración Nodo U04041AB</th>
@@ -192,7 +192,7 @@ RMD-ACC-U04041AB#
 ## Tabla resumen STB
 
 <div align="center">
-<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:20%; style="color:Black"
+<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
 <tr>
 <th colspan="7"; style="background:#97C5D7; font-weight:bold; text-align: center; vertical-align: middle">SET TOP BOXES REGISTRADO</th>
@@ -233,7 +233,7 @@ RMD-ACC-U04041AB#
 ## Información del nodo a migrar
 
 <div align="center">
-<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; style="color:Black; width:34%;margin: 0px auto; border:0; height: 10%"
+<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
 <tr>
 <th colspan="2"; align="center"; style="background:#97C5D7">DATOS DEL NODO</th>
@@ -255,7 +255,7 @@ RMD-ACC-U04041AB#
 ## Validación del RMD vía CLI
 
 <div align="center">
-<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; style="color:Black; width:35%"
+<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
 <tr>
   <tr>
@@ -313,7 +313,7 @@ RMD-ACC-U04041AB#
 ## Validación de Canales de Broadcast, OOB y Pilot
 
 <div align="center">
-<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; style="color:Black; width:100%"
+<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
 <tr>
 <th colspan="7"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em; ">VTM configure</th>

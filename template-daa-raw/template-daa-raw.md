@@ -21,10 +21,10 @@ A continuación, encontrarán el reporte de estado posterior a la actividad real
 ### Tabla resumen CM
 
 <div align="center">
-<table  border="1" width='1px'; style="color:Black; width:62%"
+<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black; "
 <thead>
 <tr>
-<th colspan=6; style="background:#FFFFFF; font-weight:bold; text-align: center; vertical-align: middle; height: 2px">Resumen Migración Nodo U04041AB</th>
+<th colspan="6"; style="background:#FFFFFF; font-weight:bold; text-align: center; vertical-align: middle; height: 2px">Resumen Migración Nodo U04041AB</th>
 </tr>
   <tr>
     <th align="left"; style="background:#808080; vertical-align: middle; font-size:0.6em">Variables</th>
@@ -192,13 +192,13 @@ RMD-ACC-U04041AB#
 ## Tabla resumen STB
 
 <div align="center">
-<table  border="1" width='1px'; style="color:Black; width:60%"
+<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:20%; style="color:Black"
 <thead>
 <tr>
-<th colspan=7; style="background:#97C5D7; font-weight:bold; text-align: center; vertical-align: middle">SET TOP BOXES REGISTRADO</th>
+<th colspan="7"; style="background:#97C5D7; font-weight:bold; text-align: center; vertical-align: middle">SET TOP BOXES REGISTRADO</th>
 </tr>
   <tr>
-    <th colspan=2; align="left"; style="background:#B9D9E5; text-align: center; vertical-align: middle; font-size:0.7em">Variables</th>
+    <th colspan="2"; align="left"; style="background:#B9D9E5; text-align: center; vertical-align: middle; font-size:0.7em">Variables</th>
     <th style="background:#7FAC53; text-align: center; vertical-align: middle; font-size:0.7em">PRE</th> 
     <th style="background:#DE8242; text-align: center; vertical-align: middle; font-size:0.7em">POST</th> 
     <th style="background:#A6A6A6; text-align: center; vertical-align: middle; font-size:0.7em">Var</th>
@@ -206,12 +206,12 @@ RMD-ACC-U04041AB#
     <th style="background:#A6A6A6; text-align: center; vertical-align: middle; font-size:0.7em">Status</th> 
   </tr>
   <tr>
-    <th colspan=2; align="left"; style="background:#B9D9E5; text-align: left; font-size:0.7em"># STB Nodo</th>
+    <th colspan="2"; align="left"; style="background:#B9D9E5; text-align: left; font-size:0.7em"># STB Nodo</th>
     <td align="center"; style="; font-weight:bold; font-size:1em">6</td>
     <td align="center"; style="; font-weight:bold; font-size:1em">6</td>
     <td align="center"; style="; font-weight:bold; font-size:1em">0</td>
-    <td rowspan=3; align="center"; style="background:white; text-align: center; vertical-align: middle">100%</td>
-    <td rowspan=3; align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:1em">OK</td>
+    <td rowspan="3"; align="center"; style="background:white; text-align: center; vertical-align: middle">100%</td>
+    <td rowspan="3"; align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:1em">OK</td>
   </tr>
   <tr>
     <th align="left"; style="background:#B9D9E5; font-size:0.7em"# STB Old US ID</th>
@@ -233,10 +233,10 @@ RMD-ACC-U04041AB#
 ## Información del nodo a migrar
 
 <div align="center">
-<table  style="color:Black; width:34%;margin: 0px auto; border:0; height: 10%"
+<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; style="color:Black; width:34%;margin: 0px auto; border:0; height: 10%"
 <thead>
 <tr>
-<th colspan=2; align="center"; style="background:#97C5D7">DATOS DEL NODO</th>
+<th colspan="2"; align="center"; style="background:#97C5D7">DATOS DEL NODO</th>
 </tr>
   <tr>
     <th align="left"; style="background:#B9D9E5">Nodo RMD</th> <td>RMD-ACC-U04041AB</td>  </tr><tr>
@@ -255,11 +255,11 @@ RMD-ACC-U04041AB#
 ## Validación del RMD vía CLI
 
 <div align="center">
-<table  style="color:Black; width:35%"
+<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; style="color:Black; width:35%"
 <thead>
 <tr>
   <tr>
-    <th colspan=3; align="center"; style="background:#97C5D7; vertical-align: middle; font-size:0.7em">Variables</th>
+    <th colspan="3"; align="center"; style="background:#97C5D7; vertical-align: middle; font-size:0.7em">Variables</th>
   </tr>
   <tr>
     <th align="left"; style="background:#B9D9E5; font-size:0.7em">Aux Core IP</th>
@@ -277,7 +277,7 @@ RMD-ACC-U04041AB#
     <td align="center"; style="background:#7BFC45; font-weight:bold; font-size:0.7em">OK</td>
   </tr>
 <tr>
-    <th colspan=3; align="center"; style="background:#97C5D7; vertical-align: middle; font-size:0.7em">Bandwidth</th>
+    <th colspan="3"; align="center"; style="background:#97C5D7; vertical-align: middle; font-size:0.7em">Bandwidth</th>
   </tr>
   <tr>
     <th align="left"; style="background:#B9D9E5; font-size:0.7em">lag 0</th>
@@ -285,7 +285,7 @@ RMD-ACC-U04041AB#
     <td align="center"; style="background:#7BFC45; font-weight:bold; font-size:0.7em">OK</td>
   </tr>
   <tr>
-    <th colspan=3; align="center"; style="background:#97C5D7; vertical-align: middle; font-size:0.7em">Multicast</th>
+    <th colspan="3"; align="center"; style="background:#97C5D7; vertical-align: middle; font-size:0.7em">Multicast</th>
   </tr>
   <tr>
     <th align="left"; style="background:#B9D9E5; font-size:0.7em">Broadcast</th>
@@ -313,11 +313,11 @@ RMD-ACC-U04041AB#
 ## Validación de Canales de Broadcast, OOB y Pilot
 
 <div align="center">
-<table  border="1" width='1px'; style="color:Black; width:100%"
+<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; style="color:Black; width:100%"
 <thead>
 <tr>
-<th colspan=7; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em; ">VTM configure</th>
-<th colspan=7; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">RMD Configure</th>
+<th colspan="7"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em; ">VTM configure</th>
+<th colspan="7"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">RMD Configure</th>
 </tr>
   <tr>
     <th align="center"; style="background:#A6A6A6; text-align: center; vertical-align: middle; font-size:0.5em">ID</th>
@@ -336,7 +336,7 @@ RMD-ACC-U04041AB#
     <th align="center"; style="background:#A6A6A6; text-align: center; vertical-align: middle; font-size:0.5em">Status</th>
   </tr>
   <tr>
-  <th colspan=14; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">BROADCAST CHANNELS</th>
+  <th colspan="14"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">BROADCAST CHANNELS</th>
   </tr>
 <tr>
 <td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">BC-207 Mhz</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">8000fffa</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">207</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">239.255.17.33</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">10033</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0/vid/122</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">B</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">6188547</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:0.4em">OK</td>
@@ -438,7 +438,7 @@ RMD-ACC-U04041AB#
 <td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">33</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">BC-483 Mhz</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">8000ffd1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">483</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">239.255.17.33</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">10033</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0/vid/98 </td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">B</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">6188688</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:0.4em">OK</td>
 </tr>
 <tr>
-  <th colspan=14; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">REGIONAL BROADCAST CHANNELS</th>
+  <th colspan="14"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">REGIONAL BROADCAST CHANNELS</th>
   </tr>
 <tr>
 <td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">BC-333 REG Mhz</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">8000ffcf</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">333</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">239.255.17.35</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">10035</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0/vid/101</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">B</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">6187299</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:0.4em">OK</td>
@@ -450,19 +450,19 @@ RMD-ACC-U04041AB#
 <td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:0.4em"></td>
 </tr>
 <tr>
-  <th colspan=14; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">DOWNSTREAM OOB CHANNEL</th>
+  <th colspan="14"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">DOWNSTREAM OOB CHANNEL</th>
   </tr>
 <tr>
 <td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">OOB-OM-MARISCAL</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">8000fffb</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">107,4</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">239.255.17.77</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">10077</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0/55-1/0 </td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">B</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">209054</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">n/a</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">n/a</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">n/a</td><td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:0.4em">OK</td>
 </tr>
 <tr>
-  <th colspan=14; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">UPSTREAM OOB CHANNEL</th>
+  <th colspan="14"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">UPSTREAM OOB CHANNEL</th>
   </tr>
 <tr>
 <td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">Q4_VARPD1-US1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">AC146063</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">12,128</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">q4_varpd1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">N/A</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0/55-1/2 </td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">B</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">n/a</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">n/a</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">n/a</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">n/a</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">n/a</td><td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:0.4em">OK</td>
 </tr>
 <tr>
-  <th colspan=14; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">REGIONAL BROADCAST CHANNELS</th>
+  <th colspan="14"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">REGIONAL BROADCAST CHANNELS</th>
   </tr>
 <tr>
 <td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">Pilot 177 Mhz</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">8000ffcd</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">177</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">239.255.17.37</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">10037</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0/vid/107</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">B</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">6187269</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:0.4em">OK</td>

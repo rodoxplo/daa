@@ -1,5 +1,5 @@
 ![Banner](/template-daa-raw/IMG-20250306104014185.png)
-<h1 style="background:#245bdb; color:white; font-size:1.60em; font-weight: bold"; align="center">Migración NODO LDN 1 – vCCAP – HUB CORABASTO - EXITOSO</h1>
+<h1 align="center"; style="background:#245bdb; color:white; font-size:1.60em; font-weight: bold">Migración NODO LDN 1 – vCCAP – HUB CORABASTO - EXITOSO</h1>
 A continuación, encontrarán el reporte de estado posterior a la actividad realizada en ventana de trabajo.
 
 > [!SUMMARY]
@@ -174,7 +174,7 @@ RMD-ACC-U04041AB#
 
 | <span style="color:Blue; font-size:0.6em">Youtube:<br>rr1---sn-xj0uxa-btxs.googlevideo.com</span> | <span style="color:Blue; font-size:0.6em">Facebook:<br>rr1---sn-xj0uxa-btxs.googlevideo.com</span> | <span style="color:Blue; font-size:0.6em">Netflix:<br>rr1---sn-xj0uxa-btxs.googlevideo.com</span> |
 | :-----------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
-|                               ![](Pasted%20image%2020250306115211.png)                                |                                ![](Pasted%20image%2020250306115225.png)                                |                               ![](Pasted%20image%2020250306115233.png)                                |
+|                               ![](/template-daa-raw/Pasted%20image%2020250306115211.png)                                |                                ![](/template-daa-raw/Pasted%20image%2020250306115225.png)                                |                               ![](/template-daa-raw/Pasted%20image%2020250306115233.png)                                |
 ## Parámetros de referencia Upstream (US)
 
 | ![](/template-daa-raw/Pasted%20image%2020250306125501.png) | ![](/template-daa-raw/Pasted%20image%2020250306125520.png) |
@@ -214,7 +214,7 @@ RMD-ACC-U04041AB#
     <td rowspan=3; align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:1em">OK</td>
   </tr>
   <tr>
-    <th align="left"; style="background:#B9D9E5; font-size:0.7em"; colspan-=># STB Old US ID</th>
+    <th align="left"; style="background:#B9D9E5; font-size:0.7em"# STB Old US ID</th>
     <th style="background:#B1C595; text-align: center; vertical-align: middle; font-size:0.7em">1407</th> 
     <td style="font-size:0.7em"; align="center">72</td>
     <td style="font-size:0.7em"; align="center">66</td>
@@ -236,7 +236,7 @@ RMD-ACC-U04041AB#
 <table  style="color:Black; width:34%;margin: 0px auto; border:0; height: 10%"
 <thead>
 <tr>
-<th style="background:#97C5D7"; colspan=3; align="center">DATOS DEL NODO</th>
+<th colspan=2; align="center"; style="background:#97C5D7">DATOS DEL NODO</th>
 </tr>
   <tr>
     <th align="left"; style="background:#B9D9E5">Nodo RMD</th> <td>RMD-ACC-U04041AB</td>  </tr><tr>
@@ -259,7 +259,7 @@ RMD-ACC-U04041AB#
 <thead>
 <tr>
   <tr>
-    <th style="background:#97C5D7; vertical-align: middle; font-size:0.7em"; colspan=3; align="center">Variables</th>
+    <th colspan=3; align="center"; style="background:#97C5D7; vertical-align: middle; font-size:0.7em">Variables</th>
   </tr>
   <tr>
     <th align="left"; style="background:#B9D9E5; font-size:0.7em">Aux Core IP</th>
@@ -277,7 +277,7 @@ RMD-ACC-U04041AB#
     <td align="center"; style="background:#7BFC45; font-weight:bold; font-size:0.7em">OK</td>
   </tr>
 <tr>
-    <th style="background:#97C5D7; vertical-align: middle; font-size:0.7em"; colspan=3; align="center">Bandwidth</th>
+    <th colspan=3; align="center"; style="background:#97C5D7; vertical-align: middle; font-size:0.7em">Bandwidth</th>
   </tr>
   <tr>
     <th align="left"; style="background:#B9D9E5; font-size:0.7em">lag 0</th>
@@ -285,7 +285,7 @@ RMD-ACC-U04041AB#
     <td align="center"; style="background:#7BFC45; font-weight:bold; font-size:0.7em">OK</td>
   </tr>
   <tr>
-    <th style="background:#97C5D7; vertical-align: middle; font-size:0.7em"; colspan=3; align="center">Multicast</th>
+    <th colspan=3; align="center"; style="background:#97C5D7; vertical-align: middle; font-size:0.7em">Multicast</th>
   </tr>
   <tr>
     <th align="left"; style="background:#B9D9E5; font-size:0.7em">Broadcast</th>

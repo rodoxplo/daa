@@ -94,8 +94,7 @@ A continuación, encontrarán el reporte de estado posterior a la actividad real
 </div>
 
 ### IP null
-
-- `Cable Modems con IP Nulas al Cierre de la Ventana`
+`Cable Modems con IP Nulas al Cierre de la Ventana`
 ```
 RMD-ACC-U04041AB# show cable modem detail showmac | include NULL_IP     
 8c8a.bb3d.86ad  CPE(MTA)  8c8a.bb3d.86ae Filter-Group:Up=0 Down=0 IP  =NULL_IP
@@ -117,7 +116,7 @@ d833.b723.a480  CPE(MTA)  d833.b723.a483 Filter-Group:Up=0 Down=0 IP  =NULL_I
 RMD-ACC-U04041AB#
 ```
 ## Pruebas de conectividad de redes de servicio (CM, Internet y MTA)
-1. `Ping a google.com redes de Internet (públicas)`
+`Ping a google.com redes de Internet (públicas)`
 ```
 RMD-ACC-U04041AB# !+--- Ping a google.com redes de Internet (pblicas) ---+
 RMD-ACC-U04041AB# ping 8.8.8.8 source-ip 100.77.146.1
@@ -126,7 +125,7 @@ Sending IP ping to: 8.8.8.8 from 100.77.146.1
 ping (8.8.8.8): 100 data bytes
 !!!!!
 ```
-2. `Ping a servidores de aprovisionamiento (DHCP)`
+`Ping a servidores de aprovisionamiento (DHCP)`
 ```
 RMD-ACC-U04041AB# ping 192.168.9.193 source-ip 10.253.146.1
 Using Source-IP for cable-mac 0.0
@@ -144,7 +143,7 @@ ping (192.168.9.194): 100 data bytes
 round-trip min/avg/max = 9.029/9.269/9.662 ms
 RMD-ACC-U04041AB#
 ```
-3. `Estado de conexiones COPS`
+`Estado de conexiones COPS`
 ```
 RMD-ACC-U04041AB# show packetcable cops servers
 Proto   Local Addr      Server Addr.Port       KA     PCMM   IPSec UpTime
@@ -153,7 +152,7 @@ Timer  PSID
 PC vI09 10.156.165.3    172.22.4.66.3030         30s  N/A    No      0 days  0:36:10
 RMD-ACC-U04041AB#
 ```
-4. `Ping a Servidores COPS desde red de MTA`
+`Ping a Servidores COPS desde red de MTA`
 ```
 RMD-ACC-U04041AB# ping 172.22.4.66 source-ip 10.155.40.1
 Using Source-IP for cable-mac 0.0

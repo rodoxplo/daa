@@ -1,4 +1,6 @@
-<img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306104014185.png" alt="Banner">
+
+<p align="center">
+<img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306104014185.png?raw=true" alt="Banner">
 <p align="center"; style="background:#245bdb; color:white; font-size:8; font-weight: bold">
 Migración NODO LDN 1 – vCCAP – HUB CORABASTO - EXITOSO
 </p>
@@ -26,7 +28,7 @@ A continuación, encontrarán el reporte de estado posterior a la actividad real
 
 <p style="color:#c77b4a; font-size:10; font-weight: bold">① TABLA RESUMEN CM</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
-📌
+
 <div align="center">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black">
 <thead>
@@ -103,7 +105,7 @@ A continuación, encontrarán el reporte de estado posterior a la actividad real
 
 <p style="color:#c77b4a; font-size:10; font-weight: bold">② IP NULL</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
-🔗
+
 <pre style="background:#f4f4f4; color:white;font-size:8; width:60%">
 <code class="language-javascript">
 Cable Modems con IP Nulas al Cierre de la Ventana
@@ -198,35 +200,35 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 
 |           www.claro.com.ec           |         www.teleamazonas.com         |           www.facebook.com           |
 | :----------------------------------: | :----------------------------------: | :----------------------------------: |
-| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125735.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115528.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115532.png"> |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125735.png?raw=true"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115528.png?raw=true"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115532.png?raw=true"> |
 |           www.Formula1.com           |            www.google.com            |           www.youtube.com            |
-| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115353.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115357.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115401.png"> |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115353.png?raw=true"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115357.png?raw=true"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115401.png?raw=true"> |
 
 <p style="color:#c77b4a; font-size:10; font-weight: bold">⑤ Ping Test to CDN 🌐</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
 | <span style="color:Blue; font-size:0.6em">Youtube:<br>rr1---sn-xj0uxa-btxs.googlevideo.com</span> | <span style="color:Blue; font-size:0.6em">Facebook:<br>rr1---sn-xj0uxa-btxs.googlevideo.com</span> | <span style="color:Blue; font-size:0.6em">Netflix:<br>rr1---sn-xj0uxa-btxs.googlevideo.com</span> |
 | :-----------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
-|                               <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115211.png">                                |                                <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115225.png">                                |                               <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115233.png">                                |
+|                               <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115211.png?raw=true">                                |                                <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115225.png?raw=true">                                |                               <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115233.png?raw=true">                                |
 <p style="color:#c77b4a; font-size:10; font-weight: bold">⑥ Parámetros de referencia Upstream (US) 🌐</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
 | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125501.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125520.png"> |
 | ------------------------------------ | ------------------------------------ |
-| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125600.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125607.png"> |
-| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125613.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125637.png"> |
-| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125649.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125656.png"> |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125600.png?raw=true"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125607.png?raw=true"> |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125613.png?raw=true"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125637.png?raw=true"> |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125649.png?raw=true"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125656.png?raw=true"> |
 <p style="color:#c77b4a; font-size:10; font-weight: bold">⑦ Parámetros de referencia Downstream (DS) 🌐</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
 | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306114236406.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306114239811.png"> |
 | ------------------------------ | ------------------------------ |
-| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306114244251.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306114249653.png"> |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306114244251.png?raw=true"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306114249653.png?raw=true"> |
 
 <p style="color:#cbe658; font-size:6">☰ VIDEO</p>
 <p style="color:#c77b4a; font-size:10; font-weight: bold">① Tabla resumen STB</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
-📌
+
 <div align="center">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
@@ -267,7 +269,7 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 </div>
 <p style="color:#c77b4a; font-size:10; font-weight: bold">② Información del nodo a migrar</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
-📌
+
 <div align="center">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
@@ -289,7 +291,7 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 </div>
 <p style="color:#c77b4a; font-size:10; font-weight: bold">③ Validación del RMD vía CLI</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
-📌
+
 <div align="center">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
@@ -347,7 +349,7 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 </div>
 <p style="color:#c77b4a; font-size:10; font-weight: bold">④ Validación de Canales de Broadcast, OOB y Pilot</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
-📌
+
 <div align="center">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
@@ -514,19 +516,19 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 <p style="color:#c77b4a; font-size:10; font-weight: bold">⑤ Paquetes fuera de secuencia por Transport Stream</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
-| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132155821.png"> |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132155821.png?raw=true"> |
 | ------------------------------ |
 <p style="color:#c77b4a; font-size:10; font-weight: bold">⑥ Paquetes Dropeado por Canal de Video</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
-| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132303777.png"> |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132303777.png?raw=true"> |
 | ------------------------------ |
 <p style="color:#c77b4a; font-size:10; font-weight: bold">⑦ Paquetes Dropeado por Canal de Video</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
 | STB: 000-01783-33438-127 Comando:Refresh | <font color="#9bbb59">Respuesta</font> |
 | ---------------------------------------- | -------------------------------------- |
-| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132422325.png">           | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132406805.png">         |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132422325.png?raw=true">           | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132406805.png?raw=true">         |
 
 <p style="color:#8abdb5; font-size:6; font-weight: bold">☰ OBSERVACIONES</p>
 <hr align="left"; border="2"; style="width:8%; color:#8abdb5"> 
@@ -545,4 +547,3 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 <pre style="background:#FFFFFF; color:green; font-size:8; font-weight: bold"; align="left">
 ✅ EXITOSO
 </pre>
-

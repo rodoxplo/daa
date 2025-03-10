@@ -539,11 +539,6 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 
 <p style="color:#8abdb5; font-size:6; font-weight: bold">☰ RESULTADO DEL TRABAJO</p>
 <hr align="left"; border="2"; style="width:8%; color:#8abdb5"> 
-<pre style="background:white; font-size:4">
-➢ Se realizó la migración del nodo de manera exitosa.
-➢ Se aplicó un soft reset al nodo para actualizar la configuración de la frecuencia 499.250 de manera exitosa.
-</pre>
-
 <pre style="background:#FFFFFF; color:green; font-size:8; font-weight: bold"; align="left">
 ✅ EXITOSO
 </pre>

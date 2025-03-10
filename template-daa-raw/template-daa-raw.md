@@ -1,32 +1,32 @@
-![Banner](/template-daa-raw/IMG-20250306104014185.png)
-<h4><p align="center"; style="background:#245bdb; color:white; font-size:12; font-weight: bold">Migración NODO LDN 1 – vCCAP – HUB CORABASTO - EXITOSO</p></h4>
-
-<p style="background:#245bdb; color:white; font-size:6.7; font-weight: bold">
-  A continuación, encontrarán el reporte de estado posterior a la actividad realizada en ventana de trabajo.
+<img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306104014185.png" alt="Banner">
+<p align="center"; style="background:#245bdb; color:white; font-size:8; font-weight: bold">
+Migración NODO LDN 1 – vCCAP – HUB CORABASTO - EXITOSO
 </p>
 
+<pre style="background:white; font-size:4">
+A continuación, encontrarán el reporte de estado posterior a la actividad realizada en ventana de trabajo.  
+</pre>
 
->!Summary
+<p style="color:#8abdb5; font-size:6; font-weight: bold">☰ SUMMARY</p>
+<hr align="left"; border="2"; style="width:8%; color:#8abdb5">
 
+<pre style="background:white; font-size:4">
+➢ Se realizan respaldos de configuración de los equipos involucrados.
+➢ Se realizaron pruebas de verificación del estado de funcionamiento del RMD.
+➢ Se realizaron pruebas de conectividad de redes de servicio (CM, Internet y MTA).
+➢ Se realizaron validaciones del servicio de video.
+➢ Se realizaron validaciones de parámetros RF de los puertos del RMD.
+➢ Se toman datos comparativos del conteo de la cantidad de CM y STB migrados.
+➢ Se toma registro de los CM con aprovisionamiento al cierre de la ventana.
+➢ Se realizó limpieza de RMD en status "pending" y "offline" que no serán migrados.
+➢ Se realizó limpieza de Startup-config templates que no serán usados en el despliegue.  
+</pre>
 
-<p style="font-size:10; font-weight: bold">SUMMARY
-<hr style="width:12%">
-<p/>
+<p style="color:#cbe658; font-size:6">☰ DOCSIS</p>
 
-  
-- Se realizan respaldos de configuración de los equipos involucrados.
-- Se realizaron pruebas de verificación del estado de funcionamiento del RMD.
-- Se realizaron pruebas de conectividad de redes de servicio (CM, Internet y MTA).
-- Se realizaron validaciones del servicio de video.
-- Se realizaron validaciones de parámetros RF de los puertos del RMD.
-- Se toman datos comparativos del conteo de la cantidad de CM y STB migrados.
-- Se toma registro de los CM con aprovisionamiento al cierre de la ventana.
-- Se realizó limpieza de RMD en status "pending" y "offline" que no serán migrados.
-- Se realizó limpieza de Startup-config templates que no serán usados en el despliegue.
-</body>
-
-<h4 align="left"; style="color:#c77b4a; font-weight: bold">TABLA RESUMEN</h4>
-
+<p style="color:#c77b4a; font-size:10; font-weight: bold">① TABLA RESUMEN CM</p>
+<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
+📌
 <div align="center">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black">
 <thead>
@@ -101,17 +101,13 @@
 </table>
 </div>
 
-</h4>
-
-
-<h4 align="left"; style="color:white; font-weight: bold">IP NULL</h4>
-
-<h6 align="left"; style="background:#c77b4a; color:white; font-weight: bold">IP NULL</h6>
-`Cable Modems con IP Nulas al Cierre de la Ventana`
-
-
+<p style="color:#c77b4a; font-size:10; font-weight: bold">② IP NULL</p>
+<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
+🔗
 <pre style="background:#f4f4f4; color:white;font-size:8; width:60%">
-<code class="language-javascript"> 
+<code class="language-javascript">
+Cable Modems con IP Nulas al Cierre de la Ventana
+
 RMD-ACC-U04041AB# show cable modem detail showmac | include NULL_IP     
 8c8a.bb3d.86ad  CPE(MTA)  8c8a.bb3d.86ae Filter-Group:Up=0 Down=0 IP  =NULL_IP
 8c8a.bb40.2e21  CPE(MTA)  8c8a.bb40.2e22 Filter-Group:Up=0 Down=0 IP  =NULL_IP
@@ -133,20 +129,25 @@ RMD-ACC-U04041AB#
 </code>
 </pre>
 
+<p style="color:#c77b4a; font-size:10; font-weight: bold">③ Pruebas de conectividad de redes de servicio (CM, Internet y MTA)</p>
+<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
-```
-## Pruebas de conectividad de redes de servicio (CM, Internet y MTA)
-`Ping a google.com redes de Internet (públicas)`
-```
-RMD-ACC-U04041AB# !+--- Ping a google.com redes de Internet (pblicas) ---+
+<pre style="background:#f4f4f4; color:white;font-size:8; width:60%">
+<code class="language-javascript">
+Ping a google.com redes de Internet (públicas)
+
 RMD-ACC-U04041AB# ping 8.8.8.8 source-ip 100.77.146.1
 Using Source-IP for cable-mac 0.0
 Sending IP ping to: 8.8.8.8 from 100.77.146.1
 ping (8.8.8.8): 100 data bytes
 !!!!!
-```
-`Ping a servidores de aprovisionamiento (DHCP)`
-```
+</code>
+</pre>
+
+<pre style="background:#f4f4f4; color:white;font-size:8; width:60%">
+<code class="language-javascript">
+Ping a servidores de aprovisionamiento (DHCP)
+
 RMD-ACC-U04041AB# ping 192.168.9.193 source-ip 10.253.146.1
 Using Source-IP for cable-mac 0.0
 Sending IP ping to: 192.168.9.193 from 10.253.146.1
@@ -162,18 +163,26 @@ ping (192.168.9.194): 100 data bytes
 5 packets transmitted, 5 packets received
 round-trip min/avg/max = 9.029/9.269/9.662 ms
 RMD-ACC-U04041AB#
-```
-`Estado de conexiones COPS`
-```
+</code>
+</pre>
+
+<pre style="background:#f4f4f4; color:white;font-size:8; width:60%">
+<code class="language-javascript">
+Estado de conexiones COPS
+
 RMD-ACC-U04041AB# show packetcable cops servers
 Proto   Local Addr      Server Addr.Port       KA     PCMM   IPSec UpTime
 Timer  PSID
 ------- --------------- ---------------------- -----  ------ ----- -----------------
 PC vI09 10.156.165.3    172.22.4.66.3030         30s  N/A    No      0 days  0:36:10
 RMD-ACC-U04041AB#
-```
-`Ping a Servidores COPS desde red de MTA`
-```
+</code>
+</pre>
+
+<pre style="background:#f4f4f4; color:white;font-size:8; width:60%">
+<code class="language-javascript">
+Ping a Servidores COPS desde red de MTA
+
 RMD-ACC-U04041AB# ping 172.22.4.66 source-ip 10.155.40.1
 Using Source-IP for cable-mac 0.0
 Sending IP ping to: 172.22.4.66 from 10.155.40.1
@@ -181,35 +190,43 @@ ping (172.22.4.66): 100 data bytes
 !!!!!
 5 packets transmitted, 5 packets received
 round-trip min/avg/max = 9.131/9.164/9.258 ms
-RMD-ACC-U04041AB#
-```
-## URL Test
+</code>
+</pre>
+
+<p style="color:#c77b4a; font-size:10; font-weight: bold">④ URL Test 🌐</p>
+<hr align="left"; border="2"; style="width:8%; color:#c77b4a"> 
+
 |           www.claro.com.ec           |         www.teleamazonas.com         |           www.facebook.com           |
 | :----------------------------------: | :----------------------------------: | :----------------------------------: |
-| ![](/template-daa-raw/Pasted%20image%2020250306125735.png) | ![](/template-daa-raw/Pasted%20image%2020250306115528.png) | ![](/template-daa-raw/Pasted%20image%2020250306115532.png) |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125735.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115528.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115532.png"> |
 |           www.Formula1.com           |            www.google.com            |           www.youtube.com            |
-| ![](/template-daa-raw/Pasted%20image%2020250306115353.png) | ![](/template-daa-raw/Pasted%20image%2020250306115357.png) | ![](/template-daa-raw/Pasted%20image%2020250306115401.png) |
-## Ping Test to CDN
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115353.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115357.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115401.png"> |
+
+<p style="color:#c77b4a; font-size:10; font-weight: bold">⑤ Ping Test to CDN 🌐</p>
+<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
 | <span style="color:Blue; font-size:0.6em">Youtube:<br>rr1---sn-xj0uxa-btxs.googlevideo.com</span> | <span style="color:Blue; font-size:0.6em">Facebook:<br>rr1---sn-xj0uxa-btxs.googlevideo.com</span> | <span style="color:Blue; font-size:0.6em">Netflix:<br>rr1---sn-xj0uxa-btxs.googlevideo.com</span> |
 | :-----------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
-|                               ![](/template-daa-raw/Pasted%20image%2020250306115211.png)                                |                                ![](/template-daa-raw/Pasted%20image%2020250306115225.png)                                |                               ![](/template-daa-raw/Pasted%20image%2020250306115233.png)                                |
-## Parámetros de referencia Upstream (US)
+|                               <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115211.png">                                |                                <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115225.png">                                |                               <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115233.png">                                |
+<p style="color:#c77b4a; font-size:10; font-weight: bold">⑥ Parámetros de referencia Upstream (US) 🌐</p>
+<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
-| ![](/template-daa-raw/Pasted%20image%2020250306125501.png) | ![](/template-daa-raw/Pasted%20image%2020250306125520.png) |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125501.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125520.png"> |
 | ------------------------------------ | ------------------------------------ |
-| ![](/template-daa-raw/Pasted%20image%2020250306125600.png) | ![](/template-daa-raw/Pasted%20image%2020250306125607.png) |
-| ![](/template-daa-raw/Pasted%20image%2020250306125613.png) | ![](/template-daa-raw/Pasted%20image%2020250306125637.png) |
-| ![](/template-daa-raw/Pasted%20image%2020250306125649.png) | ![](/template-daa-raw/Pasted%20image%2020250306125656.png) |
-## Parámetros de referencia Downstream (DS)
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125600.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125607.png"> |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125613.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125637.png"> |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125649.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125656.png"> |
+<p style="color:#c77b4a; font-size:10; font-weight: bold">⑦ Parámetros de referencia Downstream (DS) 🌐</p>
+<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
-| ![](/template-daa-raw/IMG-20250306114236406.png) | ![](/template-daa-raw/IMG-20250306114239811.png) |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306114236406.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306114239811.png"> |
 | ------------------------------ | ------------------------------ |
-| ![](/template-daa-raw/IMG-20250306114244251.png) | ![](/template-daa-raw/IMG-20250306114249653.png) |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306114244251.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306114249653.png"> |
 
-# VIDEO
-## Tabla resumen STB
-
+<p style="color:#cbe658; font-size:6">☰ VIDEO</p>
+<p style="color:#c77b4a; font-size:10; font-weight: bold">① Tabla resumen STB</p>
+<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
+📌
 <div align="center">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
@@ -248,9 +265,9 @@ RMD-ACC-U04041AB#
   </tr>
 </table>
 </div>
-
-## Información del nodo a migrar
-
+<p style="color:#c77b4a; font-size:10; font-weight: bold">② Información del nodo a migrar</p>
+<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
+📌
 <div align="center">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
@@ -270,9 +287,9 @@ RMD-ACC-U04041AB#
   </tr>
 </table>
 </div>
-
-## Validación del RMD vía CLI
-
+<p style="color:#c77b4a; font-size:10; font-weight: bold">③ Validación del RMD vía CLI</p>
+<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
+📌
 <div align="center">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
@@ -328,9 +345,9 @@ RMD-ACC-U04041AB#
   </tr>
 </table>
 </div>
-
-## Validación de Canales de Broadcast, OOB y Pilot
-
+<p style="color:#c77b4a; font-size:10; font-weight: bold">④ Validación de Canales de Broadcast, OOB y Pilot</p>
+<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
+📌
 <div align="center">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
@@ -494,22 +511,38 @@ RMD-ACC-U04041AB#
 </tr>
 </table>
 </div>
+<p style="color:#c77b4a; font-size:10; font-weight: bold">⑤ Paquetes fuera de secuencia por Transport Stream</p>
+<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
-## Paquetes fuera de secuencia por Transport Stream
-| ![](/template-daa-raw/IMG-20250307132155821.png) |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132155821.png"> |
 | ------------------------------ |
-## Paquetes Dropeado por Canal de Video
-| ![](/template-daa-raw/IMG-20250307132303777.png) |
+<p style="color:#c77b4a; font-size:10; font-weight: bold">⑥ Paquetes Dropeado por Canal de Video</p>
+<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
+
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132303777.png"> |
 | ------------------------------ |
-## Paquetes Dropeado por Canal de Video
+<p style="color:#c77b4a; font-size:10; font-weight: bold">⑦ Paquetes Dropeado por Canal de Video</p>
+<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
+
 | STB: 000-01783-33438-127 Comando:Refresh | <font color="#9bbb59">Respuesta</font> |
 | ---------------------------------------- | -------------------------------------- |
-| ![](/template-daa-raw/IMG-20250307132422325.png)           | ![](/template-daa-raw/IMG-20250307132406805.png)         |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132422325.png">           | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132406805.png">         |
 
-# OBSERVACIONES
+<p style="color:#8abdb5; font-size:6; font-weight: bold">☰ OBSERVACIONES</p>
+<hr align="left"; border="2"; style="width:8%; color:#8abdb5"> 
+<pre style="background:white; font-size:4">
+➢ Se realizó la migración del nodo de manera exitosa.
+➢ Se aplicó un soft reset al nodo para actualizar la configuración de la frecuencia 499.250 de manera exitosa.
+</pre>
 
-- Se realizó la migración del nodo de manera exitosa.
-- Se aplicó un soft reset al nodo para actualizar la configuración de la frecuencia 499.250 de manera exitosa.
+<p style="color:#8abdb5; font-size:6; font-weight: bold">☰ RESULTADO DEL TRABAJO</p>
+<hr align="left"; border="2"; style="width:8%; color:#8abdb5"> 
+<pre style="background:white; font-size:4">
+➢ Se realizó la migración del nodo de manera exitosa.
+➢ Se aplicó un soft reset al nodo para actualizar la configuración de la frecuencia 499.250 de manera exitosa.
+</pre>
 
-# RESULTADO DEL TRABAJO
-<h1 style="background:#FFFFFF; color:green; font-size:1.60em; font-weight: bold"; align="center">EXITOSO</h1>
+<pre style="background:#FFFFFF; color:green; font-size:8; font-weight: bold"; align="left">
+✅ EXITOSO
+</pre>
+

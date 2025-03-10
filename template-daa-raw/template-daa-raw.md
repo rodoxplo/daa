@@ -1,14 +1,18 @@
 ![Banner](/template-daa-raw/IMG-20250306104014185.png)
-<h3 align="center"; style="background:#245bdb; color:white; font-size:50%; font-weight: bold">Migración NODO LDN 1 – vCCAP – HUB CORABASTO - EXITOSO</h3>
-<h5
+<h4><p align="center"; style="background:#245bdb; color:white; font-size:12; font-weight: bold">Migración NODO LDN 1 – vCCAP – HUB CORABASTO - EXITOSO</p></h4>
+
+<p style="background:#245bdb; color:white; font-size:6.7; font-weight: bold">
   A continuación, encontrarán el reporte de estado posterior a la actividad realizada en ventana de trabajo.
-  
-</h5> 
-
-<h4 align="left"; style="color:blue; font-weight: bold">SUMMARY</h4>
+</p>
 
 
-<h5
+>!Summary
+
+
+<p style="font-size:10; font-weight: bold">SUMMARY
+<hr style="width:12%">
+<p/>
+
   
 - Se realizan respaldos de configuración de los equipos involucrados.
 - Se realizaron pruebas de verificación del estado de funcionamiento del RMD.
@@ -19,7 +23,7 @@
 - Se toma registro de los CM con aprovisionamiento al cierre de la ventana.
 - Se realizó limpieza de RMD en status "pending" y "offline" que no serán migrados.
 - Se realizó limpieza de Startup-config templates que no serán usados en el despliegue.
-</h5> 
+</body>
 
 <h4 align="left"; style="color:#c77b4a; font-weight: bold">TABLA RESUMEN</h4>
 
@@ -104,8 +108,10 @@
 
 <h6 align="left"; style="background:#c77b4a; color:white; font-weight: bold">IP NULL</h6>
 `Cable Modems con IP Nulas al Cierre de la Ventana`
-<pre>
-<code class="language-javascript" style="background-color: #f5f5f5; font-size:67%; width:80%"> 
+
+
+<pre style="background:#f4f4f4; color:white;font-size:8; width:60%">
+<code class="language-javascript"> 
 RMD-ACC-U04041AB# show cable modem detail showmac | include NULL_IP     
 8c8a.bb3d.86ad  CPE(MTA)  8c8a.bb3d.86ae Filter-Group:Up=0 Down=0 IP  =NULL_IP
 8c8a.bb40.2e21  CPE(MTA)  8c8a.bb40.2e22 Filter-Group:Up=0 Down=0 IP  =NULL_IP
@@ -126,6 +132,7 @@ d833.b723.a480  CPE(MTA)  d833.b723.a483 Filter-Group:Up=0 Down=0 IP  =NULL_I
 RMD-ACC-U04041AB#
 </code>
 </pre>
+
 
 ```
 ## Pruebas de conectividad de redes de servicio (CM, Internet y MTA)

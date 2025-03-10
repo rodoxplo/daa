@@ -1,9 +1,10 @@
 ![Banner](/template-daa-raw/IMG-20250306104014185.png)
-<h1 align="center"; style="background:#245bdb; color:white; font-size:1.60em; font-weight: bold">Migración NODO LDN 1 – vCCAP – HUB CORABASTO - EXITOSO</h1>
+<h3 align="center"; style="background:#245bdb; color:white; font-size:50%; font-weight: bold">Migración NODO LDN 1 – vCCAP – HUB CORABASTO - EXITOSO</h3>
 A continuación, encontrarán el reporte de estado posterior a la actividad realizada en ventana de trabajo.
 
 > [!SUMMARY]
 
+<p align="left">DOCSIS
 - Se realizan respaldos de configuración de los equipos involucrados.
 - Se realizaron pruebas de verificación del estado de funcionamiento del RMD.
 - Se realizaron pruebas de conectividad de redes de servicio (CM, Internet y MTA).
@@ -13,12 +14,10 @@ A continuación, encontrarán el reporte de estado posterior a la actividad real
 - Se toma registro de los CM con aprovisionamiento al cierre de la ventana.
 - Se realizó limpieza de RMD en status "pending" y "offline" que no serán migrados.
 - Se realizó limpieza de Startup-config templates que no serán usados en el despliegue.
+</p>
+<h4 align="left"; style="background:#bf4c58; color:white; font-size:50%; font-weight: bold">DOCSIS</h4>
 
-# EVIDENCES 
-
-## DOCSIS
-
-### Tabla resumen CM
+<h5 align="left"; style="background:#c77b4a; color:white; font-size:50%; font-weight: bold">TABLA RESUMEN</h5>
 
 <div align="center">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
@@ -93,8 +92,38 @@ A continuación, encontrarán el reporte de estado posterior a la actividad real
 </table>
 </div>
 
-### IP null
+<h5 align="left"; style="background:#c77b4a; color:white; font-size:50%; font-weight: bold">IP NULL</h5>
+
+
+
+
 `Cable Modems con IP Nulas al Cierre de la Ventana`
+<pre>
+<code class="language-javascript" style="background-color: #f5f5f5; font-size:67%; width:80%"> 
+RMD-ACC-U04041AB# show cable modem detail showmac | include NULL_IP     
+8c8a.bb3d.86ad  CPE(MTA)  8c8a.bb3d.86ae Filter-Group:Up=0 Down=0 IP  =NULL_IP
+8c8a.bb40.2e21  CPE(MTA)  8c8a.bb40.2e22 Filter-Group:Up=0 Down=0 IP  =NULL_IP
+b85e.718d.0614  CPE(MTA)  b85e.718d.0615 Filter-Group:Up=0 Down=0 IP  =NULL_IP
+001c.fb32.dec4  CPE(MTA)  001c.fb32.dec6 Filter-Group:Up=0 Down=0 IP  =NULL_IP
+1033.bf7e.d79c  CPE(MTA)  1033.bf7e.d79d Filter-Group:Up=0 Down=0 IP  =NULL_IP
+3093.bcea.b218  CPE(MTA)  3093.bcea.b21b Filter-Group:Up=0 Down=0 IP  =NULL_IP
+3093.bced.6068  CPE(MTA)  3093.bced.606b Filter-Group:Up=0 Down=0 IP  =NULL_IP
+3cb7.4b7d.7e74  CPE(MTA)  3cb7.4b7d.7e75 Filter-Group:Up=0 Down=0 IP  =NULL_IP
+6cba.b8f8.09c0  CPE(MTA)  6cba.b8f8.09c3 Filter-Group:Up=0 Down=0 IP  =NULL_IP
+8c8a.bb3d.8c3e  CPE(MTA)  8c8a.bb3d.8c3f Filter-Group:Up=0 Down=0 IP  =NULL_IP
+8c8a.bb3e.bcf3  CPE(MTA)  8c8a.bb3e.bcf4 Filter-Group:Up=0 Down=0 IP  =NULL_IP
+8c8a.bb3f.a4d3  CPE(MTA)  8c8a.bb3f.a4d4 Filter-Group:Up=0 Down=0 IP  =NULL_IP
+c03c.04fb.5390  CPE(MTA)  c03c.04fb.5393 Filter-Group:Up=0 Down=0 IP  =NULL_IP
+c03c.04fb.5510  CPE(MTA)  c03c.04fb.5513 Filter-Group:Up=0 Down=0 IP  =NULL_IP
+c83f.b47b.7052  CPE(MTA)  c83f.b47b.7053 Filter-Group:Up=0 Down=0 IP  =NULL_IP
+d833.b723.a480  CPE(MTA)  d833.b723.a483 Filter-Group:Up=0 Down=0 IP  =NULL_IP
+RMD-ACC-U04041AB#
+</code>
+</pre>
+
+
+
+
 ```
 RMD-ACC-U04041AB# show cable modem detail showmac | include NULL_IP     
 8c8a.bb3d.86ad  CPE(MTA)  8c8a.bb3d.86ae Filter-Group:Up=0 Down=0 IP  =NULL_IP

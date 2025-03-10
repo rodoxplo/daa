@@ -1,10 +1,15 @@
 ![Banner](/template-daa-raw/IMG-20250306104014185.png)
 <h3 align="center"; style="background:#245bdb; color:white; font-size:50%; font-weight: bold">Migración NODO LDN 1 – vCCAP – HUB CORABASTO - EXITOSO</h3>
-A continuación, encontrarán el reporte de estado posterior a la actividad realizada en ventana de trabajo.
+<h5
+  A continuación, encontrarán el reporte de estado posterior a la actividad realizada en ventana de trabajo.
+  
+</h5> 
 
-> [!SUMMARY]
+<h4 align="left"; style="color:blue; font-weight: bold">SUMMARY</h4>
 
-<p align="left">DOCSIS
+
+<h5
+  
 - Se realizan respaldos de configuración de los equipos involucrados.
 - Se realizaron pruebas de verificación del estado de funcionamiento del RMD.
 - Se realizaron pruebas de conectividad de redes de servicio (CM, Internet y MTA).
@@ -14,89 +19,90 @@ A continuación, encontrarán el reporte de estado posterior a la actividad real
 - Se toma registro de los CM con aprovisionamiento al cierre de la ventana.
 - Se realizó limpieza de RMD en status "pending" y "offline" que no serán migrados.
 - Se realizó limpieza de Startup-config templates que no serán usados en el despliegue.
-</p>
-<h4 align="left"; style="background:#bf4c58; color:white; font-size:50%; font-weight: bold">DOCSIS</h4>
+</h5> 
 
-<h5 align="left"; style="background:#c77b4a; color:white; font-size:50%; font-weight: bold">TABLA RESUMEN</h5>
+<h4 align="left"; style="color:#c77b4a; font-weight: bold">TABLA RESUMEN</h4>
 
 <div align="center">
-<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
+<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black">
 <thead>
 <tr>
 <th colspan="6"; style="background:#FFFFFF; font-weight:bold; text-align: center; vertical-align: middle; height: 2px">Resumen Migración Nodo U04041AB</th>
 </tr>
   <tr>
-    <th align="left"; style="background:#808080; vertical-align: middle; font-size:0.6em">Variables</th>
-    <th style="background:#7FAC53; text-align: center; vertical-align: middle; font-size:0.6em">PRE</th> 
-    <th style="background:#DE8242; text-align: center; vertical-align: middle; font-size:0.6em">POST</th> 
-    <th style="background:#BFBFBF; text-align: center; vertical-align: middle; font-size:0.6em">Var</th>
-    <th style="background:#BFBFBF; text-align: center; vertical-align: middle; font-size:0.6em">% CM</th> 
-    <th style="background:#BFBFBF; text-align: center; vertical-align: middle; font-size:0.6em">Status</th> 
+    <th align="left"; style="background:#808080; vertical-align: middle; font-size:0.4em">Variables</th>
+    <th style="background:#7FAC53; text-align: center; vertical-align: middle; font-size:0.4em">PRE</th> 
+    <th style="background:#DE8242; text-align: center; vertical-align: middle; font-size:0.4em">POST</th> 
+    <th style="background:#BFBFBF; text-align: center; vertical-align: middle; font-size:0.4em">Var</th>
+    <th style="background:#BFBFBF; text-align: center; vertical-align: middle; font-size:0.4em">% CM</th> 
+    <th style="background:#BFBFBF; text-align: center; vertical-align: middle; font-size:0.4em">Status</th> 
   </tr>
   <tr>
-    <th align="left"; style="background:#BFBFBF; font-size:0.6em; vertical-align: middle; font-weight:bold"># CMs</th>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">142</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">186</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">-44</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">131%</td>
+    <th align="left"; style="background:#BFBFBF; font-size:0.5em; vertical-align: middle; font-weight:bold"># CMs</th>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">142</td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">186</td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">-44</td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">131%</td>
     <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.6em">OK</td>
   </tr>
 <tr>
-    <th align="left"; style="background:#BFBFBF; font-size:0.6em; vertical-align: middle; font-weight:bold"># CMs Oper</th>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">0</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">183</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">-183</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle"></td>
+    <th align="left"; style="background:#BFBFBF; font-size:0.5em; vertical-align: middle; font-weight:bold"># CMs Oper</th>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">0</td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">183</td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">-183</td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
     <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.6em">OK</td>
   </tr>
   <tr>
-    <th align="left"; style="background:#F2F2F2; font-size:0.6em; vertical-align: middle; font-weight:bold">Avg US RxPwr (CMTS)</th>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">0,00</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">140,92</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle"></td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle"></td>
+    <th align="left"; style="background:#F2F2F2; font-size:0.5em; vertical-align: middle; font-weight:bold">Avg US RxPwr (CMTS)</th>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">0,00</td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">140,92</td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
     <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.6em">OK</td>
   </tr>
   <tr>
-    <th align="left"; style="background:#F2F2F2; font-size:0.6em; vertical-align: middle; font-weight:bold">Avg US SNR (CMTS)</th>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">359,67</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">368,32</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle"></td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle"></td>
-    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.6em">OK</td>
+    <th align="left"; style="background:#F2F2F2; font-size:0.5em; vertical-align: middle; font-weight:bold">Avg US SNR (CMTS)</th>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">359,67</td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">368,32</td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
+    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.5em">OK</td>
   </tr>
   <tr>
-    <th align="left"; style="background:#BFBFBF; font-size:0.6em; vertical-align: middle; font-weight:bold">Avg US TxPwr (CM)</th>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">470,30</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">444,91</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">-44</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">131%</td>
-    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.6em">OK</td>
+    <th align="left"; style="background:#BFBFBF; font-size:0.5em; vertical-align: middle; font-weight:bold">Avg US TxPwr (CM)</th>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">470,30</td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">444,91</td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">-44</td>
+    <td align="center"; style="font-size:0.4em; vertical-align
+      : middle">131%</td>
+    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.5em">OK</td>
   </tr>
   <tr>
-    <th align="left"; style="background:#BFBFBF; font-size:0.6em; vertical-align: middle; font-weight:bold">Ave DS RxPwr (CM)</th>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">25,46</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">35,49</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle"></td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle"></td>
-    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.6em">OK</td>
+    <th align="left"; style="background:#BFBFBF; font-size:0.5em; vertical-align: middle; font-weight:bold">Ave DS RxPwr (CM)</th>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">25,46</td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">35,49</td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
+    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.5em">OK</td>
   </tr>
   <tr>
-    <th align="left"; style="background:#BFBFBF; font-size:0.6em; vertical-align: middle; font-weight:bold">Ave DS RxPwr (CM)</th>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">384,96</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle">413,17</td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle"></td>
-    <td align="center"; style="font-size:0.6em; vertical-align: middle"></td>
-    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.6em">OK</td>
+    <th align="left"; style="background:#BFBFBF; font-size:0.5em; vertical-align: middle; font-weight:bold">Ave DS RxPwr (CM)</th>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">384,96</td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle">413,17</td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
+    <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
+    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.5em">OK</td>
   </tr>
 </table>
 </div>
 
-<h5 align="left"; style="background:#c77b4a; color:white; font-size:50%; font-weight: bold">IP NULL</h5>
+</h4>
 
 
+<h4 align="left"; style="color:white; font-weight: bold">IP NULL</h4>
 
-
+<h6 align="left"; style="background:#c77b4a; color:white; font-weight: bold">IP NULL</h6>
 `Cable Modems con IP Nulas al Cierre de la Ventana`
 <pre>
 <code class="language-javascript" style="background-color: #f5f5f5; font-size:67%; width:80%"> 
@@ -121,28 +127,6 @@ RMD-ACC-U04041AB#
 </code>
 </pre>
 
-
-
-
-```
-RMD-ACC-U04041AB# show cable modem detail showmac | include NULL_IP     
-8c8a.bb3d.86ad  CPE(MTA)  8c8a.bb3d.86ae Filter-Group:Up=0 Down=0 IP  =NULL_IP
-8c8a.bb40.2e21  CPE(MTA)  8c8a.bb40.2e22 Filter-Group:Up=0 Down=0 IP  =NULL_IP
-b85e.718d.0614  CPE(MTA)  b85e.718d.0615 Filter-Group:Up=0 Down=0 IP  =NULL_IP
-001c.fb32.dec4  CPE(MTA)  001c.fb32.dec6 Filter-Group:Up=0 Down=0 IP  =NULL_IP
-1033.bf7e.d79c  CPE(MTA)  1033.bf7e.d79d Filter-Group:Up=0 Down=0 IP  =NULL_IP
-3093.bcea.b218  CPE(MTA)  3093.bcea.b21b Filter-Group:Up=0 Down=0 IP  =NULL_IP
-3093.bced.6068  CPE(MTA)  3093.bced.606b Filter-Group:Up=0 Down=0 IP  =NULL_IP
-3cb7.4b7d.7e74  CPE(MTA)  3cb7.4b7d.7e75 Filter-Group:Up=0 Down=0 IP  =NULL_IP
-6cba.b8f8.09c0  CPE(MTA)  6cba.b8f8.09c3 Filter-Group:Up=0 Down=0 IP  =NULL_IP
-8c8a.bb3d.8c3e  CPE(MTA)  8c8a.bb3d.8c3f Filter-Group:Up=0 Down=0 IP  =NULL_IP
-8c8a.bb3e.bcf3  CPE(MTA)  8c8a.bb3e.bcf4 Filter-Group:Up=0 Down=0 IP  =NULL_IP
-8c8a.bb3f.a4d3  CPE(MTA)  8c8a.bb3f.a4d4 Filter-Group:Up=0 Down=0 IP  =NULL_IP
-c03c.04fb.5390  CPE(MTA)  c03c.04fb.5393 Filter-Group:Up=0 Down=0 IP  =NULL_IP
-c03c.04fb.5510  CPE(MTA)  c03c.04fb.5513 Filter-Group:Up=0 Down=0 IP  =NULL_IP
-c83f.b47b.7052  CPE(MTA)  c83f.b47b.7053 Filter-Group:Up=0 Down=0 IP  =NULL_IP
-d833.b723.a480  CPE(MTA)  d833.b723.a483 Filter-Group:Up=0 Down=0 IP  =NULL_IP
-RMD-ACC-U04041AB#
 ```
 ## Pruebas de conectividad de redes de servicio (CM, Internet y MTA)
 `Ping a google.com redes de Internet (públicas)`

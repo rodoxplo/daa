@@ -1,7 +1,7 @@
-
-<p align="center">
+<div align="left">
+<p align="left">
 <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306104014185.png?raw=true" alt="Banner">
-<p align="center"; style="background:#245bdb; color:white; font-size:8; font-weight: bold">
+<p align="left"; style="background:#245bdb; color:white; font-size:8; font-weight: bold">
 Migración NODO LDN 1 – vCCAP – HUB CORABASTO - EXITOSO
 </p>
 
@@ -29,7 +29,7 @@ A continuación, encontrarán el reporte de estado posterior a la actividad real
 <p style="color:#c77b4a; font-size:10; font-weight: bold">① TABLA RESUMEN CM</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
-<div align="center">
+<div align="left">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black">
 <thead>
 <tr>
@@ -229,7 +229,7 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 <p style="color:#c77b4a; font-size:10; font-weight: bold">① Tabla resumen STB</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
-<div align="center">
+<div align="left">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
 <tr>
@@ -270,7 +270,7 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 <p style="color:#c77b4a; font-size:10; font-weight: bold">② Información del nodo a migrar</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
-<div align="center">
+<div align="left">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
 <tr>
@@ -292,7 +292,7 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 <p style="color:#c77b4a; font-size:10; font-weight: bold">③ Validación del RMD vía CLI</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
-<div align="center">
+<div align="left">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
 <tr>
@@ -350,7 +350,7 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 <p style="color:#c77b4a; font-size:10; font-weight: bold">④ Validación de Canales de Broadcast, OOB y Pilot</p>
 <hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
-<div align="center">
+<div align="left">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
 <thead>
 <tr>
@@ -542,3 +542,4 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 <pre style="background:#FFFFFF; color:green; font-size:8; font-weight: bold"; align="left">
 ✅ EXITOSO
 </pre>
+</div>

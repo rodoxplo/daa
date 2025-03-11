@@ -1,17 +1,17 @@
+<html>
 <div align="left">
+<body>
 <p align="left">
 <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306104014185.png?raw=true" alt="Banner">
 <p align="left"; style="background:#245bdb; color:white; font-size:8; font-weight: bold">
 Migración NODO LDN 1 – vCCAP – HUB CORABASTO - EXITOSO
 </p>
-
+<br>
 <pre style="background:white; font-size:4">
 A continuación, encontrarán el reporte de estado posterior a la actividad realizada en ventana de trabajo.  
 </pre>
 
 <p style="color:#8abdb5; font-size:6; font-weight: bold">☰ SUMMARY</p>
-<hr align="left"; border="2"; style="width:8%; color:#8abdb5">
-
 <pre style="background:white; font-size:4">
 ➢ Se realizan respaldos de configuración de los equipos involucrados.
 ➢ Se realizaron pruebas de verificación del estado de funcionamiento del RMD.
@@ -24,13 +24,11 @@ A continuación, encontrarán el reporte de estado posterior a la actividad real
 ➢ Se realizó limpieza de Startup-config templates que no serán usados en el despliegue.  
 </pre>
 
-<p style="color:#cbe658; font-size:6">☰ DOCSIS</p>
+<p style="color:#bf4c58; font-size:3"; font-weight: bold>☰ DOCSIS</p>
 
-<p style="color:#c77b4a; font-size:10; font-weight: bold">① TABLA RESUMEN CM</p>
-<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
-
+<p style="color:#c77b4a; font-size:6; font-weight: bold">① TABLA RESUMEN CM</p>
 <div align="left">
-<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black">
+<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black; font-size:4">
 <thead>
 <tr>
 <th colspan="6"; style="background:#FFFFFF; font-weight:bold; text-align: center; vertical-align: middle; height: 2px">Resumen Migración Nodo U04041AB</th>
@@ -104,9 +102,8 @@ A continuación, encontrarán el reporte de estado posterior a la actividad real
 </div>
 
 <p style="color:#c77b4a; font-size:10; font-weight: bold">② IP NULL</p>
-<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
-<pre style="background:#f4f4f4; color:white;font-size:8; width:60%">
+<pre style="background:#f4f4f4;font-size:4; width:60%">
 <code class="language-javascript">
 Cable Modems con IP Nulas al Cierre de la Ventana
 
@@ -132,9 +129,9 @@ RMD-ACC-U04041AB#
 </pre>
 
 <p style="color:#c77b4a; font-size:10; font-weight: bold">③ Pruebas de conectividad de redes de servicio (CM, Internet y MTA)</p>
-<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
-<pre style="background:#f4f4f4; color:white;font-size:8; width:60%">
+
+<pre style="background:#f4f4f4;font-size:4; width:60%">
 <code class="language-javascript">
 Ping a google.com redes de Internet (públicas)
 
@@ -146,7 +143,7 @@ ping (8.8.8.8): 100 data bytes
 </code>
 </pre>
 
-<pre style="background:#f4f4f4; color:white;font-size:8; width:60%">
+<pre style="background:#f4f4f4;font-size:4; width:60%">
 <code class="language-javascript">
 Ping a servidores de aprovisionamiento (DHCP)
 
@@ -168,7 +165,7 @@ RMD-ACC-U04041AB#
 </code>
 </pre>
 
-<pre style="background:#f4f4f4; color:white;font-size:8; width:60%">
+<pre style="background:#f4f4f4;font-size:4; width:60%">
 <code class="language-javascript">
 Estado de conexiones COPS
 
@@ -181,7 +178,7 @@ RMD-ACC-U04041AB#
 </code>
 </pre>
 
-<pre style="background:#f4f4f4; color:white;font-size:8; width:60%">
+<pre style="background:#f4f4f4;font-size:4; width:60%">
 <code class="language-javascript">
 Ping a Servidores COPS desde red de MTA
 
@@ -195,8 +192,7 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 </code>
 </pre>
 
-<p style="color:#c77b4a; font-size:10; font-weight: bold">④ URL Test 🌐</p>
-<hr align="left"; border="2"; style="width:8%; color:#c77b4a"> 
+<p style="color:#c77b4a; font-size:4; font-weight: bold">④ URL Test 🌐</p>
 
 |           www.claro.com.ec           |         www.teleamazonas.com         |           www.facebook.com           |
 | :----------------------------------: | :----------------------------------: | :----------------------------------: |
@@ -204,33 +200,32 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 |           www.Formula1.com           |            www.google.com            |           www.youtube.com            |
 | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115353.png?raw=true"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115357.png?raw=true"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115401.png?raw=true"> |
 
-<p style="color:#c77b4a; font-size:10; font-weight: bold">⑤ Ping Test to CDN 🌐</p>
-<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
+<p style="color:#c77b4a; font-size:4; font-weight: bold">⑤ Ping Test to CDN 🌐</p>
 
 | <span style="color:Blue; font-size:0.6em">Youtube:<br>rr1---sn-xj0uxa-btxs.googlevideo.com</span> | <span style="color:Blue; font-size:0.6em">Facebook:<br>rr1---sn-xj0uxa-btxs.googlevideo.com</span> | <span style="color:Blue; font-size:0.6em">Netflix:<br>rr1---sn-xj0uxa-btxs.googlevideo.com</span> |
 | :-----------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
 |                               <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115211.png?raw=true">                                |                                <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115225.png?raw=true">                                |                               <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306115233.png?raw=true">                                |
-<p style="color:#c77b4a; font-size:10; font-weight: bold">⑥ Parámetros de referencia Upstream (US) 🌐</p>
-<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
+
+<p style="color:#c77b4a; font-size:4; font-weight: bold">⑥ Parámetros de referencia Upstream (US) 🌐</p>
 
 | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125501.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125520.png"> |
 | ------------------------------------ | ------------------------------------ |
 | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125600.png?raw=true"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125607.png?raw=true"> |
 | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125613.png?raw=true"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125637.png?raw=true"> |
 | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125649.png?raw=true"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/Pasted%20image%2020250306125656.png?raw=true"> |
-<p style="color:#c77b4a; font-size:10; font-weight: bold">⑦ Parámetros de referencia Downstream (DS) 🌐</p>
-<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
+
+<p style="color:#c77b4a; font-size:4; font-weight: bold">⑦ Parámetros de referencia Downstream (DS) 🌐</p>
 
 | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306114236406.png"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306114239811.png"> |
 | ------------------------------ | ------------------------------ |
 | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306114244251.png?raw=true"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306114249653.png?raw=true"> |
 
-<p style="color:#cbe658; font-size:6">☰ VIDEO</p>
+<p style="color:#bf4c58; font-size:6; font-weight: bold">☰ VIDEO</p>
 <p style="color:#c77b4a; font-size:10; font-weight: bold">① Tabla resumen STB</p>
-<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
+
 
 <div align="left">
-<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
+<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black; font-size:4"
 <thead>
 <tr>
 <th colspan="7"; style="background:#97C5D7; font-weight:bold; text-align: center; vertical-align: middle">SET TOP BOXES REGISTRADO</th>
@@ -268,10 +263,9 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 </table>
 </div>
 <p style="color:#c77b4a; font-size:10; font-weight: bold">② Información del nodo a migrar</p>
-<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
 <div align="left">
-<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
+<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black; font-size:4"
 <thead>
 <tr>
 <th colspan="2"; align="center"; style="background:#97C5D7">DATOS DEL NODO</th>
@@ -290,10 +284,9 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 </table>
 </div>
 <p style="color:#c77b4a; font-size:10; font-weight: bold">③ Validación del RMD vía CLI</p>
-<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
 <div align="left">
-<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
+<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black; font-size:4"
 <thead>
 <tr>
   <tr>
@@ -348,13 +341,12 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 </table>
 </div>
 <p style="color:#c77b4a; font-size:10; font-weight: bold">④ Validación de Canales de Broadcast, OOB y Pilot</p>
-<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
 <div align="left">
-<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black"
+<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black; font-size:4"
 <thead>
 <tr>
-<th colspan="7"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em; ">VTM configure</th>
+<th colspan="7"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">VTM configure</th>
 <th colspan="7"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">RMD Configure</th>
 </tr>
   <tr>
@@ -374,7 +366,7 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
     <th align="center"; style="background:#A6A6A6; text-align: center; vertical-align: middle; font-size:0.5em">Status</th>
   </tr>
   <tr>
-  <th colspan="14"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">BROADCAST CHANNELS</th>
+  <th colspan="14"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:5">BROADCAST CHANNELS</th>
   </tr>
 <tr>
 <td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">BC-207 Mhz</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">8000fffa</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">207</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">239.255.17.33</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">10033</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0/vid/122</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">B</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">6188547</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:0.4em">OK</td>
@@ -476,7 +468,7 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 <td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">33</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">BC-483 Mhz</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">8000ffd1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">483</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">239.255.17.33</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">10033</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0/vid/98 </td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">B</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">6188688</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:0.4em">OK</td>
 </tr>
 <tr>
-  <th colspan="14"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">REGIONAL BROADCAST CHANNELS</th>
+  <th colspan="14"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:5">REGIONAL BROADCAST CHANNELS</th>
   </tr>
 <tr>
 <td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">BC-333 REG Mhz</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">8000ffcf</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">333</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">239.255.17.35</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">10035</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0/vid/101</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">B</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">6187299</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:0.4em">OK</td>
@@ -488,19 +480,19 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 <td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em"></td><td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:0.4em"></td>
 </tr>
 <tr>
-  <th colspan="14"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">DOWNSTREAM OOB CHANNEL</th>
+  <th colspan="14"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:5">DOWNSTREAM OOB CHANNEL</th>
   </tr>
 <tr>
 <td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">OOB-OM-MARISCAL</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">8000fffb</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">107,4</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">239.255.17.77</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">10077</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0/55-1/0 </td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">B</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">209054</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">n/a</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">n/a</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">n/a</td><td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:0.4em">OK</td>
 </tr>
 <tr>
-  <th colspan="14"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">UPSTREAM OOB CHANNEL</th>
+  <th colspan="14"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:5">UPSTREAM OOB CHANNEL</th>
   </tr>
 <tr>
 <td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">Q4_VARPD1-US1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">AC146063</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">12,128</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">q4_varpd1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">N/A</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0/55-1/2 </td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">B</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">n/a</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">n/a</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">n/a</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">n/a</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">n/a</td><td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:0.4em">OK</td>
 </tr>
 <tr>
-  <th colspan="14"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:0.5em">REGIONAL BROADCAST CHANNELS</th>
+  <th colspan="14"; style="background:#97C5D7; text-align: center; vertical-align: middle; font-size:5">REGIONAL BROADCAST CHANNELS</th>
   </tr>
 <tr>
 <td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">Pilot 177 Mhz</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">8000ffcd</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">177</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">239.255.17.37</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">10037</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0/vid/107</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">B</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">6187269</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">1</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="text-align: center; vertical-align: middle; font-size:0.4em">0</td><td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-weight:bold; font-size:0.4em">OK</td>
@@ -513,33 +505,29 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 </tr>
 </table>
 </div>
-<p style="color:#c77b4a; font-size:10; font-weight: bold">⑤ Paquetes fuera de secuencia por Transport Stream</p>
-<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
-
+<p style="color:#c77b4a; font-size:4; font-weight: bold">⑤ Paquetes fuera de secuencia por Transport Stream</p>
 | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132155821.png?raw=true"> |
 | ------------------------------ |
-<p style="color:#c77b4a; font-size:10; font-weight: bold">⑥ Paquetes Dropeado por Canal de Video</p>
-<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
+<p style="color:#bf4c58; font-size:4; font-weight: bold">⑥ Paquetes Dropeado por Canal de Video</p>
 | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132303777.png?raw=true"> |
 | ------------------------------ |
-<p style="color:#c77b4a; font-size:10; font-weight: bold">⑦ Paquetes Dropeado por Canal de Video</p>
-<hr align="left"; border="2"; style="width:8%; color:#c77b4a">
 
+<p style="color:#c77b4a; font-size:4; font-weight: bold">⑦ Paquetes Dropeado por Canal de Video</p>
 | STB: 000-01783-33438-127 Comando:Refresh | <font color="#9bbb59">Respuesta</font> |
 | ---------------------------------------- | -------------------------------------- |
 | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132422325.png?raw=true">           | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132406805.png?raw=true">         |
 
 <p style="color:#8abdb5; font-size:6; font-weight: bold">☰ OBSERVACIONES</p>
-<hr align="left"; border="2"; style="width:8%; color:#8abdb5"> 
 <pre style="background:white; font-size:4">
 ➢ Se realizó la migración del nodo de manera exitosa.
 ➢ Se aplicó un soft reset al nodo para actualizar la configuración de la frecuencia 499.250 de manera exitosa.
 </pre>
 
 <p style="color:#8abdb5; font-size:6; font-weight: bold">☰ RESULTADO DEL TRABAJO</p>
-<hr align="left"; border="2"; style="width:8%; color:#8abdb5"> 
-<pre style="background:#FFFFFF; color:green; font-size:8; font-weight: bold"; align="left">
+<pre style="background:#FFFFFF; color:green; font-size:12; font-weight: bold"; align="left">
 ✅ EXITOSO
 </pre>
+</body>
 </div>
+</html>

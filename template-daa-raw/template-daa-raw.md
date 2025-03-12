@@ -1,18 +1,22 @@
+<!DOCTYPE html>
 <html>
-<div align="left">
 <body>
 <p align="left">
 <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306104014185.png?raw=true" alt="Banner">
-<p align="left"; style="background:#245bdb; color:white; font-size:8; font-weight: bold">
+<p/>
+  
+<p align="left"; ; style="background:#245bdb; color:white; font-size:8; font-weight: bold; width:40%">
 Migración NODO LDN 1 – vCCAP – HUB CORABASTO - EXITOSO
-</p>
-<br>
-<pre style="background:white; font-size:4">
+<p
+
+<pre style="background:white; font-size:6">
 A continuación, encontrarán el reporte de estado posterior a la actividad realizada en ventana de trabajo.  
 </pre>
+</p>
+<p style="color:#8abdb5; font-size:10; font-weight: bold">☰ <u>SUMMARY</u></p>
+<p>This is some <u>mispeled</u> text.</p>
 
-<p style="color:#8abdb5; font-size:6; font-weight: bold">☰ SUMMARY</p>
-<pre style="background:white; font-size:4">
+<pre style="background:white; font-size:6; width:40%">
 ➢ Se realizan respaldos de configuración de los equipos involucrados.
 ➢ Se realizaron pruebas de verificación del estado de funcionamiento del RMD.
 ➢ Se realizaron pruebas de conectividad de redes de servicio (CM, Internet y MTA).
@@ -23,17 +27,14 @@ A continuación, encontrarán el reporte de estado posterior a la actividad real
 ➢ Se realizó limpieza de RMD en status "pending" y "offline" que no serán migrados.
 ➢ Se realizó limpieza de Startup-config templates que no serán usados en el despliegue.  
 </pre>
+<p style="color:#bf4c58; font-size:10"; font-weight: bold>☰ DOCSIS</p>
+<p style="color:#c77b4a; font-size:10; font-weight: bold">① TABLA RESUMEN CM</p>
 
-<p style="color:#bf4c58; font-size:3"; font-weight: bold>☰ DOCSIS</p>
-
-<p style="color:#c77b4a; font-size:6; font-weight: bold">① TABLA RESUMEN CM</p>
-<div align="left">
-<table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black; font-size:4">
-<thead>
-<tr>
-<th colspan="6"; style="background:#FFFFFF; font-weight:bold; text-align: center; vertical-align: middle; height: 2px">Resumen Migración Nodo U04041AB</th>
-</tr>
+<table border="1"; style="width:auto; line-height: 8px">
   <tr>
+    <th colspan="6"; style="font-weight:bold; text-align: center; vertical-align: middle; font-size:0.4em">Resumen Migración Nodo U04041AB</th>
+  </tr>
+    <tr>
     <th align="left"; style="background:#808080; vertical-align: middle; font-size:0.4em">Variables</th>
     <th style="background:#7FAC53; text-align: center; vertical-align: middle; font-size:0.4em">PRE</th> 
     <th style="background:#DE8242; text-align: center; vertical-align: middle; font-size:0.4em">POST</th> 
@@ -42,69 +43,68 @@ A continuación, encontrarán el reporte de estado posterior a la actividad real
     <th style="background:#BFBFBF; text-align: center; vertical-align: middle; font-size:0.4em">Status</th> 
   </tr>
   <tr>
-    <th align="left"; style="background:#BFBFBF; font-size:0.5em; vertical-align: middle; font-weight:bold"># CMs</th>
+    <th align="left"; style="background:#BFBFBF; font-size:0.4em; vertical-align: middle"># CMs</th>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">142</td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">186</td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">-44</td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">131%</td>
-    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.6em">OK</td>
+    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.4em">OK</td>
   </tr>
 <tr>
-    <th align="left"; style="background:#BFBFBF; font-size:0.5em; vertical-align: middle; font-weight:bold"># CMs Oper</th>
+    <th align="left"; style="background:#BFBFBF; font-size:0.4em; vertical-align: middle"># CMs Oper</th>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">0</td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">183</td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">-183</td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
-    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.6em">OK</td>
+    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.4em">OK</td>
   </tr>
   <tr>
-    <th align="left"; style="background:#F2F2F2; font-size:0.5em; vertical-align: middle; font-weight:bold">Avg US RxPwr (CMTS)</th>
+    <th align="left"; style="background:#F2F2F2; font-size:0.4em; vertical-align: middle">Avg US RxPwr (CMTS)</th>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">0,00</td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">140,92</td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
-    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.6em">OK</td>
+    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.4em">OK</td>
   </tr>
   <tr>
-    <th align="left"; style="background:#F2F2F2; font-size:0.5em; vertical-align: middle; font-weight:bold">Avg US SNR (CMTS)</th>
+    <th align="left"; style="background:#F2F2F2; font-size:0.4em; vertical-align: middle">Avg US SNR (CMTS)</th>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">359,67</td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">368,32</td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
-    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.5em">OK</td>
+    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.4em">OK</td>
   </tr>
   <tr>
-    <th align="left"; style="background:#BFBFBF; font-size:0.5em; vertical-align: middle; font-weight:bold">Avg US TxPwr (CM)</th>
+    <th align="left"; style="background:#BFBFBF; font-size:0.4em; vertical-align: middle">Avg US TxPwr (CM)</th>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">470,30</td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">444,91</td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">-44</td>
     <td align="center"; style="font-size:0.4em; vertical-align
       : middle">131%</td>
-    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.5em">OK</td>
+    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.4em">OK</td>
   </tr>
   <tr>
-    <th align="left"; style="background:#BFBFBF; font-size:0.5em; vertical-align: middle; font-weight:bold">Ave DS RxPwr (CM)</th>
+    <th align="left"; style="background:#BFBFBF; font-size:0.4em; vertical-align: middle">Ave DS RxPwr (CM)</th>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">25,46</td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">35,49</td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
-    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.5em">OK</td>
+    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.4em">OK</td>
   </tr>
   <tr>
-    <th align="left"; style="background:#BFBFBF; font-size:0.5em; vertical-align: middle; font-weight:bold">Ave DS RxPwr (CM)</th>
+    <th align="left"; style="background:#BFBFBF; font-size:0.4em; vertical-align: middle">Ave DS RxPwr (CM)</th>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">384,96</td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle">413,17</td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
     <td align="center"; style="font-size:0.4em; vertical-align: middle"></td>
-    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.5em">OK</td>
+    <td align="center"; style="background:#7BFC45; text-align: center; vertical-align: middle; font-size:0.4em">OK</td>
   </tr>
 </table>
-</div>
 
 <p style="color:#c77b4a; font-size:10; font-weight: bold">② IP NULL</p>
 
-<pre style="background:#f4f4f4;font-size:4; width:60%">
-<code class="language-javascript">
+<pre>
+<code style="width:40%; background:#f4f4f4;font-size:4"; class="language-javascript">
 Cable Modems con IP Nulas al Cierre de la Ventana
 
 RMD-ACC-U04041AB# show cable modem detail showmac | include NULL_IP     
@@ -221,8 +221,8 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306114244251.png?raw=true"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306114249653.png?raw=true"> |
 
 <p style="color:#bf4c58; font-size:6; font-weight: bold">☰ VIDEO</p>
-<p style="color:#c77b4a; font-size:10; font-weight: bold">① Tabla resumen STB</p>
 
+<p style="color:#c77b4a; font-size:10; font-weight: bold">① Tabla resumen STB</p>
 
 <div align="left">
 <table border="1"; width="1px"; border-collapse="collapse"; padding="8"; width:62%; style="color:Black; font-size:4"
@@ -506,28 +506,32 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 </table>
 </div>
 <p style="color:#c77b4a; font-size:4; font-weight: bold">⑤ Paquetes fuera de secuencia por Transport Stream</p>
+
 | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132155821.png?raw=true"> |
 | ------------------------------ |
-
 <p style="color:#bf4c58; font-size:4; font-weight: bold">⑥ Paquetes Dropeado por Canal de Video</p>
+
 | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132303777.png?raw=true"> |
 | ------------------------------ |
-
 <p style="color:#c77b4a; font-size:4; font-weight: bold">⑦ Paquetes Dropeado por Canal de Video</p>
+
 | STB: 000-01783-33438-127 Comando:Refresh | <font color="#9bbb59">Respuesta</font> |
 | ---------------------------------------- | -------------------------------------- |
-| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132422325.png?raw=true">           | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132406805.png?raw=true">         |
+| <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132422325.png?raw=true"> | <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250307132406805.png?raw=true"> |
 
-<p style="color:#8abdb5; font-size:6; font-weight: bold">☰ OBSERVACIONES</p>
-<pre style="background:white; font-size:4">
+
+<p style="color:#8abdb5; font-size:2; font-weight: bold">☰ OBSERVACIONES</p>
+<pre style="background:white; font-size:1">
 ➢ Se realizó la migración del nodo de manera exitosa.
 ➢ Se aplicó un soft reset al nodo para actualizar la configuración de la frecuencia 499.250 de manera exitosa.
 </pre>
 
-<p style="color:#8abdb5; font-size:6; font-weight: bold">☰ RESULTADO DEL TRABAJO</p>
-<pre style="background:#FFFFFF; color:green; font-size:12; font-weight: bold"; align="left">
+<p style="color:#8abdb5; font-size:2; font-weight: bold">☰ RESULTADO DEL TRABAJO</p>
+
+<pre style="background:#FFFFFF; color:green; font-size:14; font-weight: bold"; align="left">
 ✅ EXITOSO
 </pre>
-</body>
 </div>
+</body>
+</html>
 </html>

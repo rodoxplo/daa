@@ -3,7 +3,6 @@
 <meta charset="UTF-8" />
     <meta name="viewport" content=
         "width=device-width, initial-scale=1.0" <meta/>
-<title>DAA Report</title>
 </head>
 <body>
 <img src="https://github.com/rodoxplo/daa/blob/main/template-daa-raw/IMG-20250306104014185.png?raw=true" alt="Banner">

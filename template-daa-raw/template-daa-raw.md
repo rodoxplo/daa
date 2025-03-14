@@ -601,8 +601,6 @@ round-trip min/avg/max = 9.131/9.164/9.258 ms
 <br>
 
 <p style="color:#8abdb5; font-size:12px; font-weight:bold; margin:0; padding-top:20">☰ <u>RESULTADO DEL TRABAJO</u></p>
-<pre style="white-space:pre-line; line-height:8px; font-size:16px; font-family:arial; font-weight:bold; background:#ffffff; color:green">
-
-✅ EXITOSO
+<pre style="white-space:pre-line; line-height:8px; font-size:16px; font-family:arial; font-weight:bold; background:#ffffff; color:green">✅ EXITOSO</pre>
 </body>
 </html>
